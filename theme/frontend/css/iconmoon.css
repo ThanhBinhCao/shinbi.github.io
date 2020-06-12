@@ -1,0 +1,336 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon/icomoon.eot?2o6n80');
+  src:  url('../fonts/icomoon/icomoon.eot?2o6n80#iefix') format('embedded-opentype'),
+  url('../fonts/icomoon/icomoon.ttf?2o6n80') format('truetype'),
+  url('../fonts/icomoon/icomoon.woff?2o6n80') format('woff'),
+  url('../fonts/icomoon/icomoon.svg?2o6n80#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home-outline:before {
+  content: "\e934";
+}
+.icon-file-text:before {
+  content: "\e936";
+}
+.icon-message-circle:before {
+  content: "\e93b";
+}
+.icon-pause_circle_filled:before {
+  content: "\e929";
+}
+.icon-pause_circle_outline:before {
+  content: "\e92a";
+}
+.icon-play_circle_filled:before {
+  content: "\e92b";
+}
+.icon-play_circle_outline:before {
+  content: "\e92c";
+}
+.icon-toys:before {
+  content: "\e92d";
+}
+.icon-phone_in_talk:before {
+  content: "\e927";
+}
+.icon-people_outline:before {
+  content: "\e935";
+}
+.icon-search:before {
+  content: "\e937";
+}
+.icon-controller-record:before {
+  content: "\e931";
+}
+.icon-controller-stop:before {
+  content: "\e932";
+}
+.icon-location3:before {
+  content: "\e92f";
+}
+.icon-information:before {
+  content: "\e930";
+}
+.icon-document-text:before {
+  content: "\e938";
+}
+.icon-search1:before {
+  content: "\e939";
+}
+.icon-video:before {
+  content: "\e933";
+}
+.icon-location1:before {
+  content: "\e926";
+}
+.icon-camera1:before {
+  content: "\e925";
+}
+.icon-video-camera:before {
+  content: "\f03d";
+}
+.icon-plus-circle:before {
+  content: "\f055";
+}
+.icon-sign-in:before {
+  content: "\f090";
+}
+.icon-sort-desc:before {
+  content: "\f0dd";
+}
+.icon-sort-down:before {
+  content: "\f0dd";
+}
+.icon-sort-asc:before {
+  content: "\f0de";
+}
+.icon-sort-up:before {
+  content: "\f0de";
+}
+.icon-file-text-o:before {
+  content: "\f0f6";
+}
+.icon-building-o:before {
+  content: "\f0f7";
+}
+.icon-file-text1:before {
+  content: "\f15c";
+}
+.icon-cc-visa1:before {
+  content: "\f1f0";
+}
+.icon-cc-mastercard1:before {
+  content: "\f1f1";
+}
+.icon-cc-paypal:before {
+  content: "\f1f4";
+}
+.icon-cc-jcb1:before {
+  content: "\f24b";
+}
+.icon-volume-control-phone:before {
+  content: "\f2a0";
+}
+.icon-double_arrow:before {
+  content: "\e900";
+}
+.icon-star:before {
+  content: "\e901";
+}
+.icon-keyboard_arrow_right:before {
+  content: "\e902";
+}
+.icon-arrow_right:before {
+  content: "\e903";
+}
+.icon-angle-double-right:before {
+  content: "\e904";
+}
+.icon-add_circle_outlinecontrol_point:before {
+  content: "\e905";
+}
+.icon-remove_circle_outline:before {
+  content: "\e906";
+}
+.icon-envelope:before {
+  content: "\e907";
+}
+.icon-angle-left:before {
+  content: "\e908";
+}
+.icon-angle-down:before {
+  content: "\e909";
+}
+.icon-angle-right:before {
+  content: "\e90a";
+}
+.icon-user:before {
+  content: "\e90b";
+}
+.icon-bed:before {
+  content: "\e90c";
+}
+.icon-cc-visa:before {
+  content: "\e90d";
+}
+.icon-automobile:before {
+  content: "\e90e";
+}
+.icon-keyboard_arrow_left:before {
+  content: "\e90f";
+}
+.icon-long-arrow-right:before {
+  content: "\e910";
+}
+.icon-mic:before {
+  content: "\e911";
+}
+.icon-keyboard_arrow_down:before {
+  content: "\e912";
+}
+.icon-keyboard_arrow_up:before {
+  content: "\e913";
+}
+.icon-locked:before {
+  content: "\e914";
+}
+.icon-americanexpress:before {
+  content: "\e915";
+}
+.icon-mastercard:before {
+  content: "\e916";
+}
+.icon-cc-jcb:before {
+  content: "\e917";
+}
+.icon-cc-mastercard:before {
+  content: "\e918";
+}
+.icon-skype1:before {
+  content: "\e919";
+}
+.icon-pencil:before {
+  content: "\e91a";
+}
+.icon-message:before {
+  content: "\e91b";
+}
+.icon-createmode_editedit:before {
+  content: "\e91c";
+}
+.icon-new-message:before {
+  content: "\e91d";
+}
+.icon-message1:before {
+  content: "\e91e";
+}
+.icon-headphones:before {
+  content: "\e91f";
+}
+.icon-headphones1:before {
+  content: "\e920";
+}
+.icon-attach_money:before {
+  content: "\e921";
+}
+.icon-camera:before {
+  content: "\e922";
+}
+.icon-fingerprint:before {
+  content: "\e923";
+}
+.icon-x:before {
+  content: "\e924";
+}
+.icon-cart:before {
+  content: "\e93a";
+}
+.icon-credit-card:before {
+  content: "\e93f";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-location2:before {
+  content: "\e948";
+}
+.icon-compass:before {
+  content: "\e949";
+}
+.icon-compass2:before {
+  content: "\e94a";
+}
+.icon-clock:before {
+  content: "\e94e";
+}
+.icon-calendar:before {
+  content: "\e953";
+}
+.icon-undo:before {
+  content: "\e965";
+}
+.icon-redo:before {
+  content: "\e966";
+}
+.icon-quotes-right:before {
+  content: "\e978";
+}
+.icon-search2:before {
+  content: "\e986";
+}
+.icon-search11:before {
+  content: "\e987";
+}
+.icon-airplane:before {
+  content: "\e9af";
+}
+.icon-menu:before {
+  content: "\e9bd";
+}
+.icon-cross:before {
+  content: "\ea0f";
+}
+.icon-google-plus:before {
+  content: "\ea8b";
+}
+.icon-google-plus1:before {
+  content: "\ea8c";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-facebook1:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-skype:before {
+  content: "\eac5";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}
+.icon-newspaper:before {
+  content: "\e92e";
+}
+.icon-arrow-up2:before {
+  content: "\ea3a";
+}
+.icon-arrow-right2:before {
+  content: "\ea3c";
+}
+.icon-arrow-down2:before {
+  content: "\ea3e";
+}
+.icon-arrow-left2:before {
+  content: "\ea40";
+}

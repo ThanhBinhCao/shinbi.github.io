@@ -1,0 +1,231 @@
+@media all and (min-width: 576px){
+}
+@media all and (min-width: 992px) {
+	#trans{
+		transform: translate(0, -30px);
+		margin-bottom: -30px;
+
+	}
+
+	.main-nav{
+		font-family: 'Lora';
+		font-size: 1.4rem;
+		color: $c_w;
+		& > ul{
+			display: flex;
+			li{
+				font-size: 1.6rem;
+				margin-right: 1.5rem;
+				position: relative;
+				ul{
+					opacity: 0;
+					visibility: hidden;
+					position: absolute;
+					z-index: 1;
+					@include smooth(.3s);
+					margin-top: .5rem;
+					padding-top: .5rem;
+					pointer-events: none;
+					min-width: 22rem;
+					li{
+						background: $c_main;
+						a{
+							padding: 1rem;
+							border-bottom: 1px solid #fff;
+						}
+					}
+					ul{
+						left: 100%;
+						top: 0;
+						padding-top: 0;
+						padding-left: .5rem;
+					}
+				}	
+				a{
+					display: block;
+					padding: 1rem .75rem;
+					position: relative;
+					@include smooth(.3s);
+					&:before{
+						content: '';
+						@include absolute(0);
+						background: rgba(255,255,255,.3);
+						opacity: 0;
+						@include smooth(.3s);
+					}
+				}
+				&:hover{
+					& > ul{
+						opacity: 1;
+						visibility: visible;
+						margin-top: 0;
+						pointer-events: all;
+					}
+					& > a:before{
+						opacity: 1;
+					}
+				}
+			}
+		}
+	}
+
+}
+@media all and (min-width: 1200px){
+	
+}
+
+
+@media all and (max-width: 1200px){
+	header .booking{
+		display: none;
+	}
+}
+@media all and (max-width: 991px){
+
+	.main-nav{
+		background: $c_main;
+		width: 400px;
+		-webkit-transform: translate(-400px,0);
+		-ms-transform: translate(-400px,0);
+		transform: translate(-400px,0);
+		color: $c_w;
+		z-index: 5;
+		@include fixed_(0,unset,0,0);
+		@include smooth(.5s);
+		&.active{
+			-webkit-transform: translate(0,0);
+			-ms-transform: translate(0,0);
+			transform: translate(0,0);
+		}
+		.logo-mobile img{
+			height: 100px;
+		}
+		&>ul>li:first-child>a{
+			border-top: 1px solid $c_w;
+			
+		}
+		ul{
+			text-align: left;
+			width: 100%;
+			>li{
+				position: relative;
+				// &:first-child > a{
+				// }
+				a{
+					display: block;
+					padding: .75rem 1.5rem;
+					border-bottom: 1px solid $c_w;
+					@include smooth(0.3s);
+					img{
+						padding-right: 5px;
+					}
+				    /* &:hover{
+				    	background: $c_main;
+				    	color: $c_w;
+				    } */
+				}
+				ul{
+					display: none;
+					li{
+						a{
+							padding-left: 3rem;
+							display: block;
+						}
+						ul{
+							a{
+								padding-left: 6rem;
+							}
+						}
+					}
+				}
+			}
+		}
+		.open-menu{
+			color: $c_w;
+			cursor: pointer;
+			font-size: 1.5rem;
+			padding: 1rem;
+			position: absolute;
+			top: 0;
+			right: 0;
+			@include smooth(250ms);
+		}
+		.rotate{
+			-webkit-transform: rotate(135deg);
+			-ms-transform: rotate(135deg);
+			transform: rotate(135deg); 
+		}
+	}
+	#btn-menu{
+		position: absolute;
+		z-index: 6;
+		right: 2rem;
+		top: 3rem;
+		cursor: pointer;
+		@include smooth(.3s);
+		border-radius: 50%;
+	    // border: 1px solid $c_w;
+	    border: 1px solid $c_main;
+	    height: 33px;
+	    width: 33px;
+	    text-align: center;
+	    line-height: 32px;
+	    &:before{
+	    	font-size: 1.5rem;
+			// color: $c_w;
+			color: $c_main;
+		}
+		&.icon-x{
+			// border: 1px solid $c_w;
+			border: 1px solid $c_main;
+			&:before{
+				// color: $c_w;
+				color: $c_main;
+			}
+		}
+	}
+	.logo img{
+		height: 60px;
+	}
+}	    
+@media all and (max-width: 767px){
+	
+}
+@media all and (max-width: 576px){
+	html{
+		font-size: 55.5% !important;
+	}
+	nav.mobile-nav{
+		width: 320px !important;
+	}
+	.banner .items img{
+		height: 70vh;
+	}
+	.tns-outer{
+		.tns-controls{
+			button{
+				&:before{
+					z-index: 1;
+					top: 30% !important;
+					color: #007bff !important;
+					background: rgba(255, 255, 255, .5);
+				}
+				&:last-child:before{
+					right: unset !important;
+					left: 0;
+				}
+				&:first-child:before{
+					left: unset !important;
+					right: 0;
+				}
+			}
+
+		}
+	}
+}
+@media all and (max-width: 480px){
+}
+@media all and (max-width: 400px){
+}
+@media all and (max-width: 320px){
+}
